@@ -15,7 +15,7 @@ class FlatSpecTest extends FlatSpec{
     }
   }
 
-  "Single valued set" should "have size 0" in {
+  "Single valued set" should "have size 1" in {
     assert(Set(1).size === 1)
   }
 

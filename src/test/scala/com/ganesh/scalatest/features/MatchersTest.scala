@@ -30,7 +30,7 @@ class MatchersTest extends WordSpec with Matchers{
   }
 
   "should do some of the special matchers" in {
-    val tmp = File.createTempFile("hello", "world") // create the fixture
+    val tmp = File.createTempFile("hello", "world")
     tmp should be a 'file
   }
 
